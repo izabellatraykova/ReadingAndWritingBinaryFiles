@@ -33,8 +33,8 @@ public class Student {
                     String name = in.readUTF();
                     int grade = in.readChar();
                     double gpa = in.readDouble();
-                    System.out.print(studentId+" | "+name+" | grade: "+grade);
-                    System.out.printf(" | gpa: "+"%.2f",gpa);
+                    System.out.print(studentId+" | "+name+" | Grade: "+grade);
+                    System.out.printf(" | GPA: "+"%.2f",gpa);
                     System.out.println();
                 }
             }
